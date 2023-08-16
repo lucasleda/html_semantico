@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML Semantico, html, section tag, article">
+    <meta name="description" content="Aqui estão algumas explicações de HTML semantico">
+    <title>HTML Semântico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header,
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            margin: 10px 0;
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+
+        section {
+            width: 70%;
+            float: left;
+        }
+
+        aside {
+            width: 30%;
+            float: right;
+        }
+
+        article,
+        aside {
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: #e9e9e9;
+            border-radius: 5px;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Html Semântico <h6>header</h6>
+        </h1>
+    </header>
+
+    <nav>
+        <h6> nav</h6>
+        <ul>
+            <li><a href="#">Pagina Inicial</a></li>
+            <li> <a href="#">Sobre</a></li>
+            <li> <a href="#">Mais informções</a></li>
+            <li> <a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>O que é semântica em HTML? <h6>Section, article</h6>
+            </h2>
+            <p>Estas tags são chamadas também de elementos semânticos, ou seja, que conseguem passar uma informação com
+                um significado específico para o conteúdo interpretado pelo navegador, não depende apenas do texto
+                dentro da tag para se entender o que há naquela parte do site.</p>
+        </article>
+
+        <article>
+            <h2>Quais são as tags Semanticas HTML?<h6>Section, article</h6>
+            </h2>
+            <p>
+                header, section, article, nav, aside, main, figure, footer, a, em, strong, cite, qtime.
+            </p>
+        </article>
+    </section>
+
+    <aside>
+        <h2>Importante! <h6>aside</h6>
+        </h2>
+        <p>O uso correto de elementos semânticos é fundamental para a construção de páginas web modernas e mais fáceis
+            de compreender e manter.</p>
+    </aside>
+
+    <div class="clearfix"></div>
+
+    <footer>
+        <p>&copy; Footer 2023 Homem Itaipava. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
