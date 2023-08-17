@@ -3,107 +3,82 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="HTML Semantico, html, section tag, article">
-    <meta name="description" content="Aqui estão algumas explicações de HTML semantico">
-    <title>HTML Semântico</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        header,
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav {
-            margin: 10px 0;
-            background-color: #f2f2f2;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-        }
-
-        section {
-            width: 70%;
-            float: left;
-        }
-
-        aside {
-            width: 30%;
-            float: right;
-        }
-
-        article,
-        aside {
-            padding: 10px;
-            margin-bottom: 10px;
-            background-color: #e9e9e9;
-            border-radius: 5px;
-        }
-
-        .clearfix {
-            clear: both;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Receita de Brigadeiro</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-
     <header>
-        <h1>Html Semântico <h6>header</h6>
-        </h1>
+        <h1>Receitas e Notícias</h1>
+        <p>Bem-vindo ao nosso site de receitas e notícias!</p>
     </header>
 
-    <nav>
-        <h6> nav</h6>
-        <ul>
-            <li><a href="#">Pagina Inicial</a></li>
-            <li> <a href="#">Sobre</a></li>
-            <li> <a href="#">Mais informções</a></li>
-            <li> <a href="#">Contato</a></li>
-        </ul>
-    </nav>
-
     <section>
-        <article>
-            <h2>O que é semântica em HTML? <h6>Section, article</h6>
-            </h2>
-            <p>Estas tags são chamadas também de elementos semânticos, ou seja, que conseguem passar uma informação com
-                um significado específico para o conteúdo interpretado pelo navegador, não depende apenas do texto
-                dentro da tag para se entender o que há naquela parte do site.</p>
-        </article>
+        <h2>Receita de Brigadeiro</h2>
+        <h3>Ingredientes:</h3>
+        <ul>
+            <li>1 lata de leite condensado</li>
+            <li>2 colheres (sopa) de chocolate em pó</li>
+            <li>2 colheres (sopa) de manteiga</li>
+            <li>Chocolate granulado</li>
+        </ul>
 
-        <article>
-            <h2>Quais são as tags Semanticas HTML?<h6>Section, article</h6>
-            </h2>
-            <p>
-                header, section, article, nav, aside, main, figure, footer, a, em, strong, cite, qtime.
-            </p>
-        </article>
+        <h3>Modo de Preparo:</h3>
+        <ol>
+            <li>Em uma panela, misture o leite condensado, o chocolate em pó e a manteiga.</li>
+            <li>Cozinhe em fogo médio e mexa sem parar com uma colher de pau.</li>
+            <li>Cozinhe o brigadeiro até que ele desgrude da panela.</li>
+            <li>Deixe esfriar e faça pequenas bolas. Passe no chocolate granulado.</li>
+        </ol>
+        <a href="URL-DA-REFERÊNCIA">Clique aqui para ver a receita original</a>
     </section>
 
-    <aside>
-        <h2>Importante! <h6>aside</h6>
-        </h2>
-        <p>O uso correto de elementos semânticos é fundamental para a construção de páginas web modernas e mais fáceis
-            de compreender e manter.</p>
-    </aside>
+    <section>
+        <h2>Tabela Nutricional</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço unitário</th>
+                    <th>Quantidade em estoque</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HD SATA 80 gb</td>
+                    <td>R$85</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>Pendrive 2GB</td>
+                    <td>R$25</td>
+                    <td>150</td>
+                </tr>
+                <tr>
+                    <td>impressora laser 3d</td>
+                    <td>R$613</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>monitor lcd 19</td>
+                    <td>R$309</td>
+                    <td>41</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
-    <div class="clearfix"></div>
+    <article>
+        <h2>Notícia Recente: O aumento da popularidade do brigadeiro no exterior</h2>
+        <p>O brigadeiro, uma das mais tradicionais sobremesas brasileiras, tem ganhado popularidade em diversos países. Com lojas especializadas abrindo em diversas cidades ao redor do mundo, o doce tem conquistado os paladares estrangeiros.</p>
+        <img src="brigadeiro.jfif" alt="Imagem ilustrativa de brigadeiros">
+        <a href="https://www.tudogostoso.com.br/receita/114-brigadeiro.html">Clique aqui para ler a notícia completa</a>
+    </article>
 
     <footer>
-        <p>&copy; Footer 2023 Homem Itaipava. Todos os direitos reservados.</p>
+        <p>Email para contato: weidner.lucas@gmail.com</p>
     </footer>
-
 </body>
 
 </html>
